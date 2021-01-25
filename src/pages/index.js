@@ -1,7 +1,7 @@
 import React from "react"
 import background from "./../images/background.jpg"
-import githubLogo from "src/images/GitHub-Mark-64px.png"
-import linkedinLogo from "src/images/LI-In-Bug.png"
+import githubLogo from "./../images/GitHub-Mark-64px.png"
+import linkedinLogo from "./../images/LI-In-Bug.png"
 import "./style.css"
 
 const IndexPage = () => {
