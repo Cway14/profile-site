@@ -1,7 +1,7 @@
 import React from "react"
 import background from "./../images/background.jpg"
-import githubLogo from "./../images/Github-Mark-64px.png"
-import linkedinLogo from "./../images/LI-In-Bug.png"
+import githubLogo from "src/images/GitHub-Mark-64px.png"
+import linkedinLogo from "src/images/LI-In-Bug.png"
 import "./style.css"
 
 const IndexPage = () => {
@@ -92,10 +92,10 @@ const IndexPage = () => {
         <h1>We are coming Soon</h1>
         <h3>In the meantime, check out my Github for other projects!</h3>
         <div class="links-container">
-          <a href="/" class="github-button">
+          <a href="github.com/cway14" class="github-button">
             <img class="github-logo" src={githubLogo} alt=""/>
           </a>
-          <a href="/" class="linkedin-button">
+          <a href="https://www.linkedin.com/in/camway/" class="linkedin-button">
             <img class="linkedin-logo" src={linkedinLogo} alt=""></img>
           </a>
         </div>
